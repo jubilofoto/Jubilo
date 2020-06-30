@@ -1,0 +1,21 @@
+<html lang="en">
+	<head>
+		<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+		<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>FOTO TESTE</title>
+	</head>
+	<body>
+
+		<a-scene embedd arjs='sourceType: webcam;'>
+			<a-marker preset="hiro">
+				<a-text position="0 2 0" value="Jubilofoto!" font color="blue" face="Verdana" size="12px">
+				
+				</a-text>
+			</a-marker>
+		</a-scene>
+
+	</body>
+	</html>
